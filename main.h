@@ -20,8 +20,8 @@
 
 /**
  * Project designer: Emoigho Precious Egwofobe and Ojeyinka Israel
- * struct fmt - Struct op
  * 
+ * struct fmt - struct op
  * @fmt: The format.
  * @fn: The function associated.
  */
@@ -30,7 +30,6 @@ struct fmt
 	char fmt;
 	int (*fn)(va_list, char[], int, int, int, int);
 };
-
 
 /**
  * typedef struct fmt fmt_t - Struct op
